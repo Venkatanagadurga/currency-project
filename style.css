@@ -3,7 +3,7 @@
 }
 
 body {
-    background: linear-gradient(45deg, wheat,navy) no-repeat;
+    background: linear-gradient(to right, black, gray,white,black) no-repeat;
     font-family: Arial, Helvetica, sans-serif;
     display: flex;
     flex-direction: column;
@@ -15,7 +15,10 @@ body {
 }
 
 .container {
-    background-color: rgb(81, 140, 91);
+    background-image:url(./1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     padding: 8px 40px;
     border-radius: 10px;
     box-shadow: 0px 0px 5px 5px rgba(36, 36, 35, 0.75);
@@ -23,7 +26,7 @@ body {
 
 .btn {
     color: white;
-    background: rgb(55, 44, 153);
+    background: rgb(37, 206, 73);
     cursor: pointer;
     border-radius: 10px;
     font-size: 15px;
@@ -41,6 +44,8 @@ body {
 .currency select {
     padding: 10px 20px 10px 10px;
     appearance: none;
+    color: white;
+    font-weight: bold;
     border: 1px solid red;
     font-size: 16px;
     background: transparent;
@@ -49,6 +54,8 @@ body {
 .currency input {
     border: 0;
     background: transparent;
+    color: white;
+    font-weight: bold;
     font-size: 30px;
     text-align: left;
 }
@@ -60,9 +67,15 @@ body {
 }
 
 .rate {
-    color: navy;
-    font-size: 14px;
+    background: linear-gradient(to right, red, yellow,orange);
+    background-clip: text;
+    background-size: cover;
+    -webkit-background-clip: text;
+    color: transparent;
+    font-weight: bold;
+    font-size: 18px;
     padding: auto;
+    letter-spacing: 1px;
 }
 
 select:focus,
