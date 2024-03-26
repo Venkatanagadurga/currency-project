@@ -1,12 +1,11 @@
 
-
 const currencyElement_one = document.getElementById('currency-one');
 const currencyElement_two = document.getElementById('currency-two');
 const amountElement_one = document.getElementById('amount-one');
 const amountElement_two = document.getElementById('amount-two');
 
 const rateElement = document.getElementById('rate');
-const swap = document.getElementById('swap');
+const swap = document.getElementById('Convert');
 
 
 function calculate(){
