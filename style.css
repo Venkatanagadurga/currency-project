@@ -26,12 +26,15 @@ body {
 
 .btn {
     color: white;
-    background: rgb(37, 206, 73);
+    background: rgb(37, 206, 96);
     cursor: pointer;
     border-radius: 10px;
     font-size: 15px;
     padding: 10px 15px;
     font-weight: bold;
+}
+.btn:hover{
+    background-color: blue;
 }
 
 .currency {
