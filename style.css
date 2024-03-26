@@ -30,7 +30,7 @@ body {
     cursor: pointer;
     border-radius: 10px;
     font-size: 15px;
-    padding: 5px 15px;
+    padding: 10px 15px;
     font-weight: bold;
 }
 
@@ -67,7 +67,7 @@ body {
 }
 
 .rate {
-    background: linear-gradient(to right, red, yellow,orange);
+    background: red;
     background-clip: text;
     background-size: cover;
     -webkit-background-clip: text;
